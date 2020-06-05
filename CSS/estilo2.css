@@ -1,0 +1,179 @@
+
+/*Fuentes*/
+@font-face{
+    font-family:'nunito';
+    src:url(../FUENTES/KulimPark-Bold.ttf);
+   }
+
+body{
+    font-family:'nunito'; 
+    font-size: 15px;
+    color: brown;
+    padding: 10px;
+    margin: 0;
+    background-image: url(../IMAGENES/2.jpg);
+    text-align: center;
+    box-shadow: 0 0 10px;
+}
+#menu{
+    background-color: rgba(255,255,255,0.8); 
+    border-radius: 15px;
+}
+#menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 20px 30px;
+}
+#menu li{
+    display: inline;
+    margin: 0;
+}
+#menu li a{
+    color: black;
+    padding: 20px 30px;
+    text-decoration: none;
+    box-shadow: 0 0 10px rgba(65, 105, 225, 0.034);
+    border-radius: 1em;
+}
+#menu li a:hover{
+    background-color: rgba(233, 86, 86, 0.637);
+    color:rgba(18, 34, 175, 0.301);
+}
+#menu img{
+    box-shadow: 0 0 3px rgba(67, 144, 216, 0.322);
+    border-radius: 1em;
+    -webkit-transition: all 1s ease 0.5s;
+    vertical-align: middle;
+}
+#menu img:hover{
+    opacity: 1 !important;
+    -webkit-transform: scale(1,1) rotate(360deg);
+    background: rgba(228, 69, 69, 0.226);
+}
+#contenido object {
+    width: 100%;
+    height: auto;
+}
+.inicio img{
+    margin: 40px;
+    box-shadow: 0 0 10px;
+    border-radius: 1em;
+    -webkit-transition: all 1s ease s;
+
+}
+.inicio img:hover{
+    opacity: 1 !important;
+    -webkit-transform: scale(1,1) rotate(5deg);
+    background: rgba(228, 69, 69, 0.226);
+ }
+#video{
+    text-align: center;
+    font-size: 35px;
+    color: brown;
+}
+#tabla{
+    background-color:rgba(128, 128, 128, 0.342);
+}
+
+#ultimo{
+ background-color: rgba(128, 128, 128, 0.178);
+}
+
+/*contacto*/
+#contacto{
+    background-repeat:no-repeat;
+    background-position:center;
+    border: 20px;
+    
+}
+#contacto p, fieldset{
+    background-color: rgba(3, 3, 73, 0.062);
+    font-size: 20px;
+}
+
+/*entradas*/
+.entradas img{
+    margin: 0px;
+    box-shadow: 0 0 10px;
+    border-radius: 1em;
+    transition: -webkit-trnasform: 5s;
+}
+.entradas img:hover{
+    opacity: 1 !important;
+    transform: scale(2,2);
+}
+
+.entradas table{
+    font-size: 18px;
+    background-color: rgba(131, 131, 141, 0.13);
+    color: brown;
+}
+
+/*bebidas*/
+.bebidas img{
+    margin: 0px;
+    box-shadow: 0 0 10px;
+    border-radius: 1em;
+    -webkit-transition: all 1s ease 0.5s;
+}
+.bebidas img:hover{
+    opacity: 1 !important;
+    -webkit-transform: scale(1,1) rotate(5deg);
+    background: rgba(228, 69, 69, 0.226);
+}
+
+.bebidas{
+ font-size: 20px;
+ color: brown;
+}
+
+/*especialidades*/
+.especialidades {
+    position: relative;
+}
+.especialidades table {
+    width: 100%;
+    min-height: 100%;
+    height: 100%;
+    text-align: center;
+    right: 100%;
+    position: absolute;
+    -webkit-transition: all 0.3s ease 0.2s;
+}
+.especialidades img{
+    margin: 0px;
+    box-shadow: 0 0 10px;
+    border-radius: 1em;
+    border-radius: 1em;
+    -webkit-transition: all 1s ease 0.5s;
+}
+.especialidades img:hover{
+    opacity: 1 !important;
+    -webkit-transform: scale(1,1) rotate(5deg);
+    background: rgba(228, 69, 69, 0.226);
+}
+ .especialidades table{
+    font-size: 40px;
+    color: brown;
+ }
+
+ /*tutorial*/
+ .tutorial {
+    position: relative;
+}
+
+ .tutorial img{
+    margin: 0px;
+    box-shadow: 0 0 10px;
+    border-radius: 1em;
+    border-radius: 1em;
+    -webkit-transition: all 1s ease 0.5s;
+}
+
+/*entrevista*/
+#entrevista table{
+    background-color: rgba(211, 53, 53, 0.404);
+    font-size: 20px;
+}
+
+

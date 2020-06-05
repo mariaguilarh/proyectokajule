@@ -1,0 +1,122 @@
+﻿<!--Mayra Alejandra López Arispe-->
+
+
+<html>
+    <head>
+        <title>
+    KAJULE SUNSET
+        </title>
+        <link rel="stylesheet" href="CSS/estilo2.css">
+        <script type="text/javascript">
+            window.addEventListener('load', function() {
+                var item = 0,
+                    items = document.getElementsByClassName('item');
+
+                setInterval(function(){
+                    for (var i = 0; i < items.length; i++) {
+                        if (i == item) {
+                            items[i].style['right'] = 0;
+                        } else {
+                            items[i].style['right'] = '100%';
+                        }
+                    }
+
+                    item++;
+
+                    if (item == items.length) {
+                        item = 0;
+                    }
+
+                }, 2000);
+            });
+        </script>
+    </head>
+<body>
+        <div id="menu">
+                <ul>
+                    <li><img src= "IMAGENES/logo2.jpg" width="150" height="55" alt="logo kajule"></li>
+                    <li><a href="KAJULE.html">INICIO</a></li>
+                    <li><a href="ENTRADAS.html">ENTRADAS</a></li>
+                    <li><a href="ESPECIALIDADES.html">ESPECIALIDADES</a></li>
+                    <li><a href="BEBIDAS.html">BEBIDAS</a></li>
+                    <li><a href="CONTACTO.html">CONTACTO</a></li>
+                    <li><a href="ENTREVISTA.html">ENTREVISTA</a></li>
+                    <li><a href="TUTORIAL.html">TUTORIALES</a></li>
+                </ul>
+            </div>
+            <br>
+            <br>
+            <div class="ESPECIALIDADES">
+            <table border="0" class='item'>
+                <tr>
+                    <td><center>PULPO KAJULE</center></td>
+                 </tr>
+                 <tr>
+                     <td>&nbsp;</td>
+                 </tr>
+                 <tr>
+                     <td><img src="IMAGENES/pulpo-kajule.jpg" border="0" height="250" width="500"></td>
+                 </tr>
+                 <tr>
+                     <td>&nbsp;</td>
+                 </tr>
+            </table>
+            <table border="0" class='item'>
+                 <tr>
+                     <td><center>PAN DE CAZÓN</center></td>
+                 </tr>
+                 <tr>
+                        <td>&nbsp;</td>
+                 </tr>
+                 <tr>
+                     <td><center><img src="IMAGENES/pan-de-cazon.jpg" border="0" height="250" width="500" ></center></td>
+                 </tr>
+                 <tr>
+                        <td>&nbsp;</td>
+                    </tr>
+            </table>
+            <table border="0" class='item'>
+                    <tr>
+                        <td><center>ESCABECHE DE MARISCOS</center></td>
+                    </tr>
+                    <tr>
+                            <td>&nbsp;</td>
+                     </tr>
+                     <tr>
+                            <td><center><img src="IMAGENES/escabeche.jpg" border="0" height="250" width="500" ></center></td>
+                        </tr>
+                        <tr>
+                                <td>&nbsp;</td>
+                        </tr>
+            </table>
+            <table border="0" class='item'>
+                        <tr>
+                        <td><center>AGUACHILE DE CAMARÓN</center></td>
+                    </tr>
+                    <tr>
+                            <td>&nbsp;</td>
+                     </tr>
+                     <tr>
+                            <td><center><img src="IMAGENES/aguachile-de-camaron.jpg" border="0" height="250" width="500" ></center></td>
+                        </tr> 
+                        <tr>
+                                <td>&nbsp;</td>
+                        </tr>
+            </table>
+            <table border="0" class='item'>
+                        <tr>
+                        <td><center>CHILE POBLANO RELLENO DE MARISCOS</center></td>
+                    </tr>
+                    <tr>
+                            <td>&nbsp;</td>
+                     </tr>
+                     <tr>
+                            <td><center><img src="IMAGENES/CHILE3.jpg" border="0" height="250" width="500" ></center></td>
+                        </tr>  
+                        <tr>
+                                <td>&nbsp;</td>
+                        </tr>             
+            </table>
+    </div>
+            </body>
+</html>
